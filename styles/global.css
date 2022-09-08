@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    margin: 0px 80px;
+    margin: 0px 250px;
     display: grid;
     grid-template-rows: auto;
     background-color: aqua;
@@ -39,11 +39,40 @@ header div {
 main {
     height: 200vh;
     display: grid;
-    grid-template-rows: 10% 15% 1fr;
+    grid-template-rows: 15% 20% 1fr;
 }
 
-.main-div {
-    margin: 0px 80px;
+.main-div1 {
+    margin: 0px 250px;
     background-color: blueviolet;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+}
+
+.main-div1 div {
+    border: 2px solid black;
+}
+
+.main-div2 {
+    margin: 0px 250px;
+    background-color: rgb(226, 175, 66);
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15% 10%;
+}
+
+.main-div2 div {
+    border: 2px solid black;
+}
+
+.main-div3 {
+    margin: 0px 250px;
+    background-color: rgb(37, 48, 255);
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.main-div3 div {
     border: 2px solid black;
 }
