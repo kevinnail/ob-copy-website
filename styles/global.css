@@ -1,35 +1,49 @@
-:root {
-    --background: rgb(224, 234, 247);
-    --header-background: white;
-    --footer-background: rgb(243, 242, 242);
-}
-
 body {
-    height: 100vh;
-    font-family: 'Rubik', san-serif;
-    background: var(--background);
+    /* height: 100%; */
+
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: 20% 25% 30% 25%;
 }
 
 header {
-    position: sticky;
-    top: 0;
-    display: flex;
-    align-items: center;
-    background-color: var(--header-background);
+    margin: 0px 80px;
+    display: grid;
+    grid-template-rows: auto;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+header div {
+    display: grid;
+    /* grid-template-rows: 50% 50%; */
+    background-color: rgb(134, 249, 195);
+    border: 2px solid black;
+}
+
+.header-ul1 {
+    display: grid;
+    grid-template-columns: 60% 15% 5% 20%;
+    background-color: rgb(214, 214, 255);
+}
+.header-ul2 {
+    display: grid;
+    grid-template-columns: 20% 30% 10% 10% 10% 10% 10%;
+    background-color: rgb(214, 214, 255);
+}
+
+.header-ul1 li,
+.header-ul2 li {
+    border: 2px solid black;
 }
 
 main {
-    padding: 20px;
+    height: 200vh;
+    display: grid;
+    grid-template-rows: 10% 15% 1fr;
 }
 
-footer {
-    position: sticky;
-    bottom: 0;
-    padding: 7px 20px;
-    font-size: .8em;
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--footer-background);
+.main-div {
+    margin: 0px 80px;
+    background-color: blueviolet;
+    border: 2px solid black;
 }
