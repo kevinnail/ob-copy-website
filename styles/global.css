@@ -41,7 +41,7 @@ header div {
 .header-ul1 li,
 .header-ul2 li {
     border: 2px solid black;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(72, 72, 215);
 }
 
 main {
@@ -50,64 +50,76 @@ main {
     grid-template-rows: 10% 15% 1fr 13% 15%;
 }
 
-.main-div1 {
+.main-ul1 {
     margin: 0px 250px;
     background-color: blueviolet;
     border: 2px solid black;
     display: grid;
     grid-template-columns: 50% 25% 25%;
+    padding: 5px;
 }
 
-.main-div1 div {
+.main-ul1 li {
     border: 2px solid black;
+    background-color: rgb(189, 112, 10);
 }
 
-.main-div2 {
+.main-ul2 {
     margin: 0px 250px;
-    background-color: rgb(226, 175, 66);
+    background-color: rgb(0, 170, 37);
     border: 2px solid black;
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15% 15% 10%;
+    padding: 5px;
 }
 
-.main-div2 div {
+.main-ul2 li {
     border: 2px solid black;
+    background-color: rgb(103, 0, 103);
 }
 
-.main-div3 {
+.main-ul3 {
     margin: 0px 250px;
     background-color: rgb(37, 48, 255);
     border: 2px solid black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 5px;
 }
-.main-div3 div {
+.main-ul3 li {
     border: 2px solid black;
+    background-color: brown;
 }
 
-.main-div4 {
+.main-ul4 {
     margin: 0px 250px;
     background-color: rgb(255, 234, 0);
     border: 2px solid black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 5px;
 }
 
-.main-div4 div {
+.main-ul4 li {
     border: 2px solid black;
+    background-color: rgb(21, 255, 0);
 }
 
-.main-div5 {
+.main-ul5 {
     margin: 0px 250px;
-    background-color: rgba(136, 0, 255, 0.477);
+    background-color: rgba(67, 176, 90, 0.477);
     border: 2px solid black;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 5px;
 }
-
-.main-div5 div {
+.main-ul5 li {
     border: 2px solid black;
+    background-color: aqua;
 }
+/* .main-div5 div {
+    border: 2px solid black;
+} */
 
 footer {
     /* height: 100vh; */
@@ -123,7 +135,7 @@ footer {
 
 .footer-ul1 {
     /* margin: 0px 250px; */
-    height: 50px;
+    height: 150px;
     background-color: rgb(136, 0, 255);
     border: 2px solid black;
     display: grid;
