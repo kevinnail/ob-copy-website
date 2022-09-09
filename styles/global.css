@@ -11,16 +11,25 @@ body {
 header {
     margin: 0px 250px;
     display: grid;
-    /* grid-template-rows: auto; */
+    /* grid-template-rows: 2fr 1fr 1fr; */
     background-color: aqua;
     border: 2px solid black;
 }
 
-header div {
+.header-div {
     display: grid;
-    /* grid-template-rows: 50% 50%; */
+    grid-template-rows: 2fr 1fr 1fr;
+    /* grid-template-rows: 50% 25% 25%; */
     /* background-color: rgb(134, 249, 195);
     border: 2px solid black; */
+}
+
+.header-ul {
+    display: grid;
+    /* grid-template-columns: 60% 15% 5% 20%; */
+    background-color: rgb(185, 141, 20);
+    /* height: 50px; */
+    padding: 2px;
 }
 
 .header-ul1 {
@@ -38,6 +47,7 @@ header div {
     padding: 2px;
 }
 
+.header-ul li,
 .header-ul1 li,
 .header-ul2 li {
     border: 2px solid black;
