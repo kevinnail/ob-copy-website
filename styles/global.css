@@ -1,14 +1,17 @@
 body {
     /* height: 100%; */
-
-    display: grid;
-    grid-template-rows: 20% 25% 30% 25%;
+    /* height: 300vh; */
+    /* display: grid; */
+    /* grid-template-rows: 20% 25% 30% 25%; */
+    /* grid-template-rows: 10% 15% 30% 20% 25%;
+     */
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
 }
 
 header {
     margin: 0px 250px;
     display: grid;
-    grid-template-rows: auto;
+    /* grid-template-rows: auto; */
     background-color: aqua;
     border: 2px solid black;
 }
@@ -16,30 +19,35 @@ header {
 header div {
     display: grid;
     /* grid-template-rows: 50% 50%; */
-    background-color: rgb(134, 249, 195);
-    border: 2px solid black;
+    /* background-color: rgb(134, 249, 195);
+    border: 2px solid black; */
 }
 
 .header-ul1 {
     display: grid;
     grid-template-columns: 60% 15% 5% 20%;
-    background-color: rgb(214, 214, 255);
+    background-color: rgb(185, 141, 20);
+    height: 50px;
+    padding: 2px;
 }
 .header-ul2 {
     display: grid;
     grid-template-columns: 20% 30% 10% 10% 10% 10% 10%;
-    background-color: rgb(214, 214, 255);
+    background-color: rgb(185, 141, 20);
+    height: 50px;
+    padding: 2px;
 }
 
 .header-ul1 li,
 .header-ul2 li {
     border: 2px solid black;
+    background-color: rgb(255, 255, 255);
 }
 
 main {
-    height: 200vh;
+    height: 250vh;
     display: grid;
-    grid-template-rows: 15% 20% 1fr;
+    grid-template-rows: 10% 15% 1fr 13% 15%;
 }
 
 .main-div1 {
@@ -75,4 +83,84 @@ main {
 }
 .main-div3 div {
     border: 2px solid black;
+}
+
+.main-div4 {
+    margin: 0px 250px;
+    background-color: rgb(255, 234, 0);
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.main-div4 div {
+    border: 2px solid black;
+}
+
+.main-div5 {
+    margin: 0px 250px;
+    background-color: rgba(136, 0, 255, 0.477);
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-div5 div {
+    border: 2px solid black;
+}
+
+footer {
+    /* height: 100vh; */
+    display: grid;
+    background-color: aqua;
+    margin: 0px 250px;
+    /* grid-template-rows: 10% 15% 1fr 13% 15%; */
+}
+
+/* footer div {
+    position: fixed;
+} */
+
+.footer-ul1 {
+    /* margin: 0px 250px; */
+    height: 50px;
+    background-color: rgb(136, 0, 255);
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 2px;
+}
+
+.footer-ul1 li {
+    border: 2px solid black;
+    background-color: rgb(72, 72, 255);
+}
+
+.footer-ul2 {
+    /* margin: 0px 250px; */
+    height: 50px;
+    background-color: rgb(136, 0, 255);
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    padding: 2px;
+}
+
+.footer-ul2 li {
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+}
+.footer-div3 {
+    /* margin: 0px 250px; */
+    height: 50px;
+    background-color: rgb(136, 0, 255);
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2px;
+}
+
+.footer-div3 div {
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
 }
