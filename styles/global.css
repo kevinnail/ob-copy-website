@@ -62,12 +62,12 @@ main {
 
 .main-ul3 {
     margin: 0px 250px;
-    background-color: rgb(37, 48, 255);
+    background-color: rgb(135, 141, 255);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 .main-ul3 li {
-    background-color: brown;
+    background-color: rgba(225, 178, 5, 0.868);
 }
 
 .main-ul4 {
